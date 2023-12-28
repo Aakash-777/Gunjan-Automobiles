@@ -3,7 +3,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
     document.querySelector(".quote-pop").style.display = "none";
     document.getElementById("message").textContent = "Submitting...";
     document.getElementById("message").style.display = "flex";
-    document.getElementById("quotation-submit").disabled = true;
+    // document.getElementById("quotation-submit").disabled = true;
 
     // Collect the form data
     var formData = new FormData(this);
@@ -61,7 +61,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
         document.getElementById("message").style.backgroundColor = "lightgreen";
         document.getElementById("message").style.borderColor = "black";
         document.getElementById("message").style.color = "black";
-        document.getElementById("quotation-submit").disabled = false;
+        // document.getElementById("quotation-submit").disabled = false;
         document.getElementById("form").reset();
 
         setTimeout(function () {
