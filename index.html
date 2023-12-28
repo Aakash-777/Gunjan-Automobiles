@@ -69,19 +69,21 @@
           <i id="quote-close" class="fa-solid fa-xmark"></i>
 
           <h3></h3>
-          <input id="name" placeholder="Name" type="text" name="Name" />
+          <input id="name" placeholder="Name" type="text" name="Name" required/>
           <h3></h3>
-          <input id="phone" placeholder="Phone number" type="text" name="Phone" />
+          <input id="phone" placeholder="Phone number" type="text" name="Phone" required/>
           <h3></h3>
-          <input id="email" placeholder="Email *" type="text" name="Email" />
+          <input id="email" placeholder="Email *" type="text" name="Email" required/>
           <h4>How can we help you?</h4>
           <textarea
             id="ques"
             placeholder="I was wondering about availability and rates. I need help with the following: " maxlength="1000"
-            name="Quotation" ></textarea>
+            name="Quotation" required></textarea>
           <button type="submit" id="quotation-submit">Submit</button>
         </form>
       </div>
+      <div id="message">Submitting...</div>
+      <!-- <div id="message">Data submitted successfully!</div> -->
       <div class="all-sections">
         <section id="sec-1">
           <video autoplay muted loop id="video-bg">

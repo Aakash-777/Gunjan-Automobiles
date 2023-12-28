@@ -1,7 +1,8 @@
 document.getElementById("form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent the default form submission
-    // document.getElementById("message").textContent = "Submitting..";
-    // document.getElementById("message").style.display = "block";
+    document.querySelector(".quote-pop").style.display = "none";
+    document.getElementById("message").textContent = "Submitting...";
+    document.getElementById("message").style.display = "flex";
     document.getElementById("quotation-submit").disabled = true;
 
     // Collect the form data
@@ -53,25 +54,26 @@ document.getElementById("form").addEventListener("submit", function (e) {
       })
       .then(function (data) {
         // Display a success message
-        // document.getElementById("message").textContent =
-        //   "Data submitted successfully!";
+        document.getElementById("message").textContent =
+          "Data submitted successfully!";
         console.log("Data submitted successfully!");
-        // document.getElementById("message").style.display = "block";
-        // document.getElementById("message").style.backgroundColor = "green";
-        // document.getElementById("message").style.color = "beige";
+        document.getElementById("message").style.display = "flex";
+        document.getElementById("message").style.backgroundColor = "lightgreen";
+        document.getElementById("message").style.borderColor = "black";
+        document.getElementById("message").style.color = "black";
         document.getElementById("quotation-submit").disabled = false;
         document.getElementById("form").reset();
 
-        // setTimeout(function () {
-        //   document.getElementById("message").textContent = "";
-        //   document.getElementById("message").style.display = "none";
-        // }, 2600);
+        setTimeout(function () {
+          document.getElementById("message").textContent = "";
+          document.getElementById("message").style.display = "none";
+        }, 2600);
       })
       .catch(function (error) {
         // Handle errors, you can display an error message here
         console.error(error);
-        // document.getElementById("message").textContent =
-        //   "An error occurred while submitting the form.";
-        // document.getElementById("message").style.display = "block";
+        document.getElementById("message").textContent =
+          "An error occurred while submitting the form.";
+        document.getElementById("message").style.display = "flex";
       });
   });
