@@ -8,6 +8,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 html::-webkit-scrollbar{
     display: none;
 }
@@ -227,26 +228,26 @@ html::-webkit-scrollbar{
 }
 
 #message{
-    display: none;
+    display: flex;
+    /* display: none; */
     justify-content: center;
     align-items: center;
-    min-width: 200px;
+    width: 350px;
     height: 50px;
     position: fixed;
     font-family: 'Poppins', sans-serif;
-    bottom: 25px;
+    bottom: 10vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
     font-weight: bold;
     padding: 10px 25px;
-    color: rgb(212, 212, 212);
-    background-color: rgb(81, 81, 81);
-    border: 1px solid rgb(212, 212, 212);
-    /* color: black;
-    background-color: lightgreen; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 255, 205);
+    /* color: white;
+    background-color: green; */
     border-radius: 5px;
-    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.326);
 }
 
 /* MAIN-SECTIONS------------------------------------- */
@@ -469,6 +470,7 @@ html::-webkit-scrollbar{
     display: flex;
     justify-content: space-evenly;
     /* align-items: center; */
+    
 }
 .time-contact .contacts button{
     padding: 5px 25px;

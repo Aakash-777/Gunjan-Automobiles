@@ -56,12 +56,11 @@ document.getElementById("form").addEventListener("submit", function (e) {
       .then(function (data) {
         // Display a success message
         document.getElementById("message").textContent =
-          "Data submitted successfully!";
+          "Submitted!";
         console.log("Data submitted successfully!");
         document.getElementById("message").style.display = "flex";
-        document.getElementById("message").style.backgroundColor = "lightgreen";
-        document.getElementById("message").style.borderColor = "black";
-        document.getElementById("message").style.color = "black";
+        document.getElementById("message").style.backgroundColor = "green";
+        document.getElementById("message").style.color = "white";
         // document.getElementById("quotation-submit").disabled = false;
         document.getElementById("form").reset();
 
