@@ -1,6 +1,7 @@
 document.getElementById("form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent the default form submission
     document.querySelector(".quote-pop").style.display = "none";
+    document.body.style.overflow = 'scroll';
     document.getElementById("message").textContent = "Submitting...";
     document.getElementById("message").style.display = "flex";
     // document.getElementById("quotation-submit").disabled = true;
