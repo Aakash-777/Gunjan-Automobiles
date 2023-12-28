@@ -11,11 +11,6 @@ html{
 html::-webkit-scrollbar{
     display: none;
 }
-body{
-    /* height: 3000px; */
-    /* width: 100vw;
-    overflow-x: hidden; */
-} 
 
 
 /* NAVBAR---------------------------------*/
