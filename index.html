@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1a301f8488.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Playball&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_tab.css" />
+    <link rel="stylesheet" href="style_mobile.css" />
+
+    <title>Gunjan Automobiles</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="img-box">
+        <img src="logo_3.png" alt="" />
+        <div class="ring"></div>
+      </div>
+    </div>
+    <div class="content">
+      <header class="navbar">
+        <div class="left">
+          <div class="logo">
+            <img src="logo.png" alt="" />
+          </div>
+          <h3 class="name">Gunjan Honda</h3>
+        </div>
+        <ul id="nav-opts" class="right">
+          <li class="nav-tabs"><a href="#">Home</a></li>
+          <li class="nav-tabs"><a href="#sec-3">About</a></li>
+          <li class="nav-tabs"><a href="#sec-2">Models</a></li>
+          <li class="nav-tabs"><a href="#sec-1">Services</a></li>
+        </ul>
+        <i id="ham-menu" class="fa-solid fa-bars"></i>
+      </header>
+
+      <div class="under-nav">
+        <ul class="under-nav-tabs">
+          <li id="quote_button">
+            <i class="fa-solid fa-clipboard"></i>
+            <h3 id="quote">Get Quote</h3>
+          </li>
+          <li id="cal_button">
+            <i class="fa-solid fa-phone"></i>
+            <h3 id="call">Call now</h3>
+          </li>
+          <li id="get-direction">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/dir//Gunjan+Automobiles/@22.4998999,88.2866241,13.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a027a08e4c7ed99:0xa5a229c1a27d2682!2m2!1d88.3235255!2d22.5001153?entry=ttu"
+            >
+              <i class="fa-solid fa-diamond-turn-right"></i>
+              <h3 id="direction">Get Directions</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="quote-pop">
+        <form id="form" class="quotation-box" method="POST" >
+          <h2>Get Quote</h2>
+          <i id="quote-close" class="fa-solid fa-xmark"></i>
+
+          <h3></h3>
+          <input id="name" placeholder="Name" type="text" name="Name" />
+          <h3></h3>
+          <input id="phone" placeholder="Phone number" type="text" name="Phone" />
+          <h3></h3>
+          <input id="email" placeholder="Email *" type="text" name="Email" />
+          <h4>How can we help you?</h4>
+          <textarea
+            id="ques"
+            placeholder="I was wondering about availability and rates. I need help with the following: " maxlength="1000"
+            name="Quotation" ></textarea>
+          <button type="submit" id="quotation-submit">Submit</button>
+        </form>
+      </div>
+      <div class="all-sections">
+        <section id="sec-1">
+          <video autoplay muted loop id="video-bg">
+            <source src="hornet-video-bg.mp4" type="video/mp4" />
+          </video>
+          <div class="quote-box">
+            <h1 class="big-quotes">Fly Against The Wind</h1>
+            <h2 class="small-quotes">The Hornet 2.0</h2>
+          </div>
+        </section>
+
+        <section id="sec-2">
+          <div class="welcome-text">
+            <h1>Gunjan Honda welcomes you to their official website!</h1>
+            <h2>
+              Browse through the amazing range of Honda Motorcycles and Scooters
+              and find your perfect match! Our endeavour is to delight you with
+              a great buying experience which is friendly and transparent.
+            </h2>
+          </div>
+          <div class="model-box-main">
+            <h1>&lt; Select Model &gt;</h1>
+            <div class="model-csl">
+              <div class="img-box">
+                <img src="model_images/bikes/hornet_repsol.jpg" alt="" />
+                <h2>Hornet 2.0 Repsol Edition</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/hornet.jpg" alt="" />
+                <h2>Hornet 2.0</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/sp160.jpg" alt="" />
+                <h2>Sp 160</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/sp125.jpg" alt="" />
+                <h2>sp 125</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/livo.jpg" alt="" />
+                <h2>livo</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/shine100.jpg" alt="" />
+                <h2>shine 100</h2>
+              </div>
+              <div class="img-box">
+                <img src="model_images/bikes/123.jpg" alt="" />
+                <h2>cbx 100</h2>
+              </div>
+            </div>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.shahhonda.com/getquote/uploads/pricelist.pdf"
+              id="price-list"
+              >Price List</a
+            >
+          </div>
+        </section>
+        <section id="sec-3">
+          <div class="about-box">
+            <div class="about">
+              <h1>About Us</h1>
+              <br />
+              <h2>
+                Welcome to Gunjan Honda Automobiles– your ultimate destination
+                for Honda two-wheelers! As your trusted sub-dealer, we offer a
+                wide range of new and pre-owned Honda motorcycles and scooters.
+                <br /><br />
+                At Gunjan Honda, we prioritize your experience. Our professional
+                staff ensures a quick and seamless process, from choosing your
+                dream bike to hassle-free paperwork. With flexible financing
+                options, including affordable EMIs and downpayment plans, we
+                make owning a Honda easy.
+                <br /><br />
+                Explore our latest models and well-maintained used vehicles, all
+                backed by our commitment to customer satisfaction. Get on the
+                road swiftly with Gunjan Honda – where your riding journey
+                begins effortlessly. Thank you for considering us. Ride on with
+                confidence!
+              </h2>
+              <br /><br /><br />
+              <div class="time-contact">
+                <div class="timming">
+                  <h1>Opening Hours</h1>
+                  <br />
+                  <h2>Sunday to Monday<br />10:30am - 8:30pm</h2>
+                </div>
+                <div class="contacts">
+                  <button id="cal_button_2" >Call Now</button>
+                  <h2>82401 85169</h2>
+                  <h2>70034 65248</h2>
+                  <button id="emailUsBtn" >Email Us</button>
+                  <h2>gunjanautomobiles@gmail.com</h2>
+                </div>
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58977.82643354765!2d88.2866241!3d22.4998999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a08e4c7ed99%3A0xa5a229c1a27d2682!2sGunjan%20Honda!5e0!3m2!1sen!2sin!4v1703449607842!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe
+              >Reload the page in case the map doesn't work<br /><br />
+              <div class="address">
+                <h1>Address</h1>
+                <br />
+                <h2>
+                    88, Roy Bahadur Rd, Barik Para, Indrajit Pally, Behala, Kolkata, West Bengal 700034, India
+                </h2>
+                <button>Get Direction</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      var loader = document.querySelector(".wrapper");
+      var page = document.querySelector(".content");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+        page.style.display = "block";
+      });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="form_to_sheet.js"></script>
+  </body>
+</html>
+
+

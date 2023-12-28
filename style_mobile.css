@@ -1,0 +1,93 @@
+@media only screen and (max-width: 550px) {
+
+    /* #NAVBAR ----------------- */
+    .navbar{
+        padding-left: 0px ;
+        
+    }
+    .navbar .left .name{
+        font-size: 18px;
+        width: 125px;
+        /* border: 1px solid black; */
+    }
+    .navbar .left .logo{
+        width: 90px;
+    }
+    .navbar .right{
+        height: calc(100vh - 100px - 70px - 55px);
+        /* border: 2px solid black; */
+    }
+    .under-nav{
+        height: 70px;
+        /* border: 1px solid black; */
+        
+        
+    }
+    /* .under-nav-tabs{
+        /* padding-bottom: 20px; */
+        /* justify-content: space-around ; */
+        
+        /* border: 1px solid black; */
+    
+    .under-nav-tabs li , .under-nav-tabs li a{
+        flex-direction: column; 
+        /* border: 1px solid black; */
+        
+        
+    }
+    .under-nav-tabs li * , .under-nav-tabs li a *{
+        font-size: 18px;
+    }
+    .under-nav-tabs li h3{
+        font-size: 17px;
+    }
+    #video-bg{
+        width: 100%;
+        height:  100%;
+        object-fit: cover;
+    }
+    .quote-box{
+        left: 20px;
+        top: 100px;
+        width: 80vw;
+    }
+    .small-quotes{
+        font-size: 55px;
+    } 
+
+    #sec-1{
+        height: 60vh;
+    }
+    #sec-2 .welcome-text h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #sec-2 .welcome-text h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #sec-3{
+        padding-bottom: 30vw;
+    }
+    .about-box{
+        margin-top: 12vw;
+        flex-direction: column;
+        
+    }
+    .about{
+        width: 100%;  
+    }
+
+    .time-contact{
+        flex-direction: column;
+    }
+
+    .map{
+        margin-top: 20vw;
+        width: 80vw;  
+    }
+    .map iframe{
+        width: 100%;
+    }
+}
